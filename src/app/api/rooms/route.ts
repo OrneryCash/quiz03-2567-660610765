@@ -1,4 +1,4 @@
-import { DB, Payload, readDB, writeDB } from "@lib/DB";
+import { DB, readDB, writeDB } from "@lib/DB";
 import { checkToken } from "@lib/checkToken";
 import { nanoid } from "nanoid";
 import { NextRequest, NextResponse } from "next/server";
